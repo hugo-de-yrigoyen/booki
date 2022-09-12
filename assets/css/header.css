@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  font-family: "raleway", sans-serif;
+}
+.font-light {
+  font-weight: 500;
+}
+.font-bold {
+  font-weight: 700;
+}
+
+header {
+  margin: 30px 40px 0px 40px;
+  display: flex;
+  align-items: center;
+  row-gap: 30px;
+  justify-content: space-between;
+}
+header .logo {
+  width: 96.9px;
+  height: 45.9px;
+  display: flex;
+}
+header .container-banner {
+  display: flex;
+  list-style: none;
+  color: black;
+  font-size: 17px;
+}
+
+header .container-banner :first-child a,
+header .container-banner :first-child a:visited {
+  padding: 40px 25px 15px 25px;
+}
+header .container-banner :last-child a,
+header .container-banner :last-child a:visited {
+  padding: 40px 50px 15px 50px;
+}
+header .container-banner a,
+header .container-banner a:visited {
+  border-top: 3px solid white;
+  text-decoration: none;
+}
+header .container-banner a:hover,
+header .container-banner a:focus {
+  color: #0065fc;
+  border-top: 3px solid #0065fc;
+}
+
+@media (max-width: 768px) {
+  header {
+    margin: 20px 0px 25px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header .container-banner {
+    margin-left: -40px;
+  }
+  header .container-banner :first-child a,
+  header .container-banner :first-child a:visited {
+    padding: 40px 12.5vw 15px 20.5vw;
+  }
+  header .container-banner :last-child a,
+  header .container-banner :last-child a:visited {
+    padding: 40px 24.2vw 15px 16.2vw;
+  }
+  header .container-banner a,
+  header .container-banner a:visited {
+    border-top: none;
+    border-bottom: 3px solid lightgray;
+  }
+  header .container-banner a:hover,
+  header .container-banner a:focus {
+    border-top: none;
+    border-bottom: 3px solid #0065fc;
+  }
+}

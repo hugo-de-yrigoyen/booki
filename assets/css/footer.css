@@ -1,0 +1,37 @@
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 260px;
+  padding: 50px 0px 50px 40px;
+}
+footer ul {
+  list-style: none;
+  font-size: 16px;
+  padding: 0px;
+}
+footer li {
+  margin-top: 10px;
+}
+footer a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover,
+a:focus {
+  border: none;
+  color: #0065fc;
+}
+
+@media (max-width: 992px) {
+  footer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+}
