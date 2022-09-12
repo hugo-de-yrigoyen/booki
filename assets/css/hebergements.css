@@ -38,6 +38,7 @@
   align-items: baseline;
   justify-content: center;
   gap: 105px;
+  margin-bottom: 1px;
 }
 .bloc {
   display: flex;
@@ -58,7 +59,7 @@
   width: 35%;
   height: 93%;
   object-fit: cover;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 15px 0px 0px 15px;
   margin: 5px 20px 5px 5px;
 }
 .bloc-populaires .description-populaires {
@@ -105,7 +106,7 @@
   width: 96%;
   height: 55%;
   object-fit: cover;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
   margin: 5px;
 }
 .bloc-hebergement .hebergement .description-hebergement {
