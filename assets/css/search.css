@@ -111,8 +111,8 @@ h3 {
   margin: -2px 160px -2px -160px;
 }
 .container-filtres .filtres:hover {
-  transform: scale(1.05);
-  transition: 0.2s;
+  border: 2px solid #0065fc;
+  color: #0065fc;
 }
 #economique,
 #familial,
@@ -121,7 +121,7 @@ h3 {
   display: none;
 }
 .container-filtres .filtres label {
-  padding: 13px 20px 13px 50px;
+  padding: 14px 20px 14px 50px;
   border-radius: 30px;
   margin: -5px -70px -5px 5px;
   user-select: none;
