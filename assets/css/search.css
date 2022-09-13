@@ -22,7 +22,7 @@ h3 {
   border: 1px solid #f2f2f2;
   border-radius: 15px;
   background-color: #f2f2f2;
-  width: 410px;
+  width: 400px;
   margin: 0px 0px 30px 40px;
 }
 .container-search .fa-location-dot {
@@ -45,14 +45,19 @@ h3 {
   background-color: #0065fc;
   border: 3px solid #0065fc;
   cursor: pointer;
-  margin: -25px;
+  margin: -30px;
+}
+.container-search button:active:hover {
+  background-color: #0065fc;
+  color: white;
+  transition: 0.2s;
 }
 .container-search .search-button {
   background-color: #0065fc;
   position: relative;
   left: 10px;
   font-size: 17px;
-  padding: 14px 14px 13px 14px;
+  padding: 13px 14px 13px 14px;
   border-radius: 0px 15px 15px 0px;
 }
 .container-search .search-button-small {
