@@ -23,9 +23,6 @@ header .logo {
 }
 header .container-banner {
   display: flex;
-}
-header .container-banner li {
-  color: black;
   list-style: none;
   font-size: 17px;
 }
@@ -40,6 +37,7 @@ header .container-banner :last-child a:visited {
 }
 header .container-banner a,
 header .container-banner a:visited {
+  color: black;
   border-top: 3px solid white;
   text-decoration: none;
 }
