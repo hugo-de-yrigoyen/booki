@@ -22,7 +22,7 @@ h3 {
   border: 1px solid #f2f2f2;
   border-radius: 15px;
   background-color: #f2f2f2;
-  width: 400px;
+  width: 418px;
   margin: 0px 0px 30px 40px;
 }
 .container-search .fa-location-dot {
@@ -34,10 +34,11 @@ h3 {
   transition: 0.2s;
 }
 .container-search .search-bar {
-  width: 230px;
-  padding: 15px 0px 15px 10px;
+  width: 220px;
+  padding: 15px 0px 15px 15px;
   font-size: 17px;
   border: 0px;
+  border-radius: 0px;
 }
 .container-search button {
   position: relative;
@@ -45,7 +46,7 @@ h3 {
   background-color: #0065fc;
   border: 3px solid #0065fc;
   cursor: pointer;
-  margin: -30px;
+  margin: -30px -30px -30px -3px;
 }
 .container-search button:active:hover {
   background-color: #0065fc;
@@ -54,8 +55,6 @@ h3 {
 }
 .container-search .search-button {
   background-color: #0065fc;
-  position: relative;
-  left: 10px;
   font-size: 17px;
   padding: 13px 14px 13px 14px;
   border-radius: 0px 15px 15px 0px;
@@ -63,8 +62,9 @@ h3 {
 .container-search .search-button-small {
   display: none;
   bottom: 2px;
-  padding: 16px;
+  padding: 15px 16px 16px 16px;
   border-radius: 15px;
+  margin-left: -20px;
 }
 .container-search .search-button:hover,
 .search-button-small:hover {
@@ -176,9 +176,9 @@ h3 {
     display: inline;
   }
   .container-search {
-    width: 320px;
+    width: 340px;
   }
   .container-search .search-bar {
-    width: 240px;
+    width: 235px;
   }
 }
