@@ -33,7 +33,7 @@
   align-items: center;
   width: calc(76vw - 900px);
   max-width: fit-content;
-  min-width: 420px;
+  min-width: 380px;
   order: 2;
 }
 .populaires-titre {
@@ -48,10 +48,10 @@
 }
 .bloc-populaires {
   padding: 0px 50px 35px 50px;
-  min-width: 330px;
+  min-width: 320px;
 }
 .bloc-populaires .populaires {
-  width: 350px;
+  width: 320px;
   height: 140px;
   display: flex;
 }
@@ -89,7 +89,7 @@
   height: fit-content;
   width: 56vw;
   max-width: fit-content;
-  min-width: 920px;
+  min-width: 910px;
   order: 1;
   display: block;
   padding-bottom: 60px;
@@ -144,6 +144,7 @@
     margin: 0px;
     gap: 10px;
     justify-content: center;
+    overflow: hidden;
   }
   .categorie-hebergement {
     background-color: white;

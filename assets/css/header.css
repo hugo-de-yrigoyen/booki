@@ -15,7 +15,7 @@ header {
   padding: 0px 40px 0px 40px;
   display: flex;
   align-items: center;
-  gap: 30px calc(85vw - 380px);
+  gap: 30px calc(93% - 400px);
 }
 header .logo {
   width: 96.9px;
@@ -59,13 +59,13 @@ header .container-banner a:focus {
   }
   header .container-banner :first-child a,
   header .container-banner :first-child a:visited {
-    padding-right: calc(24.95vw - 63.5px);
-    padding-left: calc(24.95vw - 63.5px);
+    padding-right: calc(24.95vw - 63px);
+    padding-left: calc(24.95vw - 63px);
   }
   header .container-banner :last-child a,
   header .container-banner :last-child a:visited {
-    padding-right: calc(25.2vw - 40.5px);
-    padding-left: calc(25.2vw - 40.5px);
+    padding-right: calc(25.2vw - 40px);
+    padding-left: calc(25.2vw - 40px);
   }
   header .container-banner a,
   header .container-banner a:visited {
