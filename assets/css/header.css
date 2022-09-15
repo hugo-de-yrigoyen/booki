@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   font-family: "raleway", sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 .font-light {
   font-weight: 500;
@@ -10,11 +11,11 @@
 }
 
 header {
-  margin: 30px 40px 0px 40px;
+  margin-top: 30px;
+  padding: 0px 40px 0px 40px;
   display: flex;
   align-items: center;
-  row-gap: 30px;
-  justify-content: space-between;
+  gap: 30px calc(85vw - 380px);
 }
 header .logo {
   width: 96.9px;
@@ -58,11 +59,13 @@ header .container-banner a:focus {
   }
   header .container-banner :first-child a,
   header .container-banner :first-child a:visited {
-    padding: 40px 12.5vw 15px 20.5vw;
+    padding-right: calc(24.95vw - 63.5px);
+    padding-left: calc(24.95vw - 63.5px);
   }
   header .container-banner :last-child a,
   header .container-banner :last-child a:visited {
-    padding: 40px 24.2vw 15px 16.2vw;
+    padding-right: calc(25.2vw - 40.5px);
+    padding-left: calc(25.2vw - 40.5px);
   }
   header .container-banner a,
   header .container-banner a:visited {

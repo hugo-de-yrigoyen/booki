@@ -4,13 +4,13 @@
 .container-activite {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 40px;
   margin: 0px 40px 50px 40px;
 }
 .container-activite .activite {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
 }
 .container-activite h3 {
   margin-left: 15px;
@@ -19,7 +19,7 @@
   font-size: 14px;
 }
 .container-activite .activite-box {
-  width: 300px;
+  width: 20.5vw;
 }
 .container-activite .activite-box img {
   width: 100%;
@@ -68,6 +68,11 @@
   .container-activite {
     justify-content: center;
   }
+  #activites-titre {
+    text-align: center;
+    margin-right: 500px;
+    min-width: max-content;
+  }
 }
 @media (max-width: 768px) {
   .container-activite .activite-fullheight,
@@ -82,5 +87,10 @@
   .container-activite .activite-50height img,
   .container-activite .activite-60height img {
     height: 67%;
+  }
+  #activites-titre {
+    text-align: left;
+    margin-left: 7vw;
+    width: 70vw;
   }
 }
