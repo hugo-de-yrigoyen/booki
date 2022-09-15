@@ -59,13 +59,13 @@ header .container-banner a:focus {
   }
   header .container-banner :first-child a,
   header .container-banner :first-child a:visited {
-    padding-right: calc(24.95vw - 63px);
-    padding-left: calc(24.95vw - 63px);
+    padding-right: calc(25vw - 63px);
+    padding-left: calc(25vw - 63px);
   }
   header .container-banner :last-child a,
   header .container-banner :last-child a:visited {
-    padding-right: calc(25.2vw - 40px);
-    padding-left: calc(25.2vw - 40px);
+    padding-right: calc(25vw - 39px);
+    padding-left: calc(25vw - 39px);
   }
   header .container-banner a,
   header .container-banner a:visited {
