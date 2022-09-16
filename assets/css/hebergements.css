@@ -148,14 +148,12 @@
     background-color: white;
     border-radius: 0px;
     padding-bottom: 20px;
-    min-width: 300px;
+    min-width: 0px;
   }
   .categorie-populaires {
     order: 0;
     border-radius: 0px;
-    width: 1000px;
-    overflow: hidden;
-    min-width: 300px;
+    width: fit-content;
   }
   .bloc-hebergement .hebergement,
   .bloc-populaires .populaires,
