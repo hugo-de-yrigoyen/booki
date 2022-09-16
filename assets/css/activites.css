@@ -1,31 +1,30 @@
 #activites-titre {
-  margin-left: 40px;
+  margin: 60px 0px 25px;
 }
 .container-activite {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  margin: 0px 40px 50px 40px;
+  margin-bottom: 60px;
 }
 .container-activite .activite {
   display: flex;
   flex-direction: column;
   gap: 40px;
-}
-.container-activite h3 {
-  margin-left: 15px;
-}
-.container-activite p {
-  font-size: 14px;
-}
-.container-activite .activite-box {
-  width: 21vw;
+  width: 20%;
+  min-width: 302px;
 }
 .container-activite .activite-box img {
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
   margin-bottom: 15px;
+}
+.container-activite h3 {
+  margin-left: 15px;
+}
+.container-activite p {
+  font-size: 14px;
 }
 
 .container-activite .activite-fullheight {
@@ -36,7 +35,7 @@
 }
 
 .container-activite .activite-60height {
-  height: 210px;
+  height: 220px;
 }
 .container-activite .activite-60height img {
   height: 74%;
@@ -50,7 +49,7 @@
 }
 
 .container-activite .activite-50height {
-  height: 175px;
+  height: 180px;
 }
 .container-activite .activite-50height img {
   height: 68%;
@@ -70,27 +69,28 @@
   }
   #activites-titre {
     text-align: center;
-    margin-right: 500px;
+    margin-left: -430px;
     min-width: max-content;
   }
 }
 @media (max-width: 768px) {
-  .container-activite .activite-fullheight,
-  .container-activite .activite-40height,
-  .container-activite .activite-50height,
-  .container-activite .activite-60height {
-    width: 85vw;
+  .container-activite {
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .container-activite .activite {
+    width: 90%;
+    gap: 20px;
+  }
+  .container-activite .activite-box {
     height: 175px;
   }
-  .container-activite .activite-fullheight img,
-  .container-activite .activite-40height img,
-  .container-activite .activite-50height img,
-  .container-activite .activite-60height img {
+  .container-activite .activite-box img {
     height: 67%;
   }
   #activites-titre {
     text-align: left;
-    margin-left: 7vw;
-    width: 70vw;
+    margin-left: 6.5%;
+    margin-top: 30px;
   }
 }

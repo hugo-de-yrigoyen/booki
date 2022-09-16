@@ -1,20 +1,20 @@
-.presentation {
+main {
   margin-left: 40px;
 }
 h1,
 h2 {
   font-size: 22px;
   font-weight: 700;
-  padding-top: 30px;
-  margin-bottom: 25px;
+  margin: 20px 0px;
 }
 h3 {
   font-size: 16px;
   font-weight: 700;
 }
+
 .presentation p {
   font-size: 16px;
-  margin: -16px 0px 20px 0px;
+  margin: -16px 0px 20px;
 }
 
 .container-search {
@@ -22,7 +22,7 @@ h3 {
   border-radius: 15px;
   background-color: #f2f2f2;
   width: 418px;
-  margin: 0px 0px 30px 40px;
+  margin-bottom: 30px;
 }
 .container-search .fa-location-dot {
   padding: 25px 15px 5px 20px;
@@ -33,8 +33,8 @@ h3 {
   transition: 0.2s;
 }
 .container-search .search-bar {
-  width: 220px;
-  padding: 15px 0px 15px 15px;
+  width: 205px;
+  padding: 15px;
   font-size: 17px;
   border: 0px;
   border-radius: 0px;
@@ -55,7 +55,7 @@ h3 {
 .container-search .search-button {
   background-color: #0065fc;
   font-size: 17px;
-  padding: 13px 14px 13px 14px;
+  padding: 13px 14px;
   border-radius: 0px 15px 15px 0px;
 }
 .container-search .fa-magnifying-glass {
@@ -72,11 +72,10 @@ h3 {
   flex-wrap: wrap;
   gap: 50px;
   align-items: center;
-  margin: 0px 0px 40px 40px;
+  margin-bottom: 40px;
 }
 .container-filtres .filtres-titre {
   font-size: 17px;
-  padding: 0px;
   margin: 0px;
 }
 .container-filtres .filtres {
@@ -137,17 +136,26 @@ h3 {
 
 .container-info {
   font-size: 17px;
-  margin: 0px 0px 50px 40px;
+  margin-bottom: 40px;
 }
 .container-info i {
   border: 1px solid lightgray;
   border-radius: 100%;
-  padding: 10px 8px 10px 8px;
+  padding: 10px 8px;
   color: #0065fc;
   margin-right: 5px;
 }
 
 @media (max-width: 992px) {
+  main {
+    margin-left: 0px;
+  }
+  .presentation,
+  .container-search,
+  .container-filtres,
+  .container-info {
+    margin-left: 20px;
+  }
   .presentation {
     max-width: 300px;
   }
@@ -164,26 +172,21 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  .presentation,
-  .container-search,
-  .container-filtres,
-  .container-info {
-    margin-left: 20px;
-  }
   .container-search .search-button span {
     display: none;
+  }
+  .container-search .fa-magnifying-glass {
+    display: inline;
   }
   .container-search .search-button {
     border-radius: 15px;
     margin-left: -20px;
   }
-  .container-search .fa-magnifying-glass {
-    display: inline;
-  }
   .container-search {
+    margin-top: 30px;
     width: calc(20vw + 187px);
   }
   .container-search .search-bar {
-    width: calc(14vw + 130px);
+    width: calc(14vw + 115px);
   }
 }

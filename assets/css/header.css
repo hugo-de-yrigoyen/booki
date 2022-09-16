@@ -11,11 +11,10 @@
 }
 
 header {
-  margin-top: 30px;
-  padding: 0px 40px 0px 40px;
+  margin: 30px 40px 40px;
   display: flex;
   align-items: center;
-  gap: 30px calc(93% - 400px);
+  justify-content: space-between;
 }
 header .logo {
   width: 96.9px;
@@ -26,15 +25,16 @@ header .container-banner {
   display: flex;
   list-style: none;
   font-size: 17px;
+  padding: 0px;
 }
 
-header .container-banner :first-child a,
-header .container-banner :first-child a:visited {
-  padding: 40px 25px 15px 25px;
+.container-banner :first-child a,
+.container-banner :first-child a:visited {
+  padding: 40px 25px 15px;
 }
-header .container-banner :last-child a,
-header .container-banner :last-child a:visited {
-  padding: 40px 50px 15px 50px;
+.container-banner :last-child a,
+.container-banner :last-child a:visited {
+  padding: 40px 50px 15px;
 }
 header .container-banner a,
 header .container-banner a:visited {
@@ -50,31 +50,35 @@ header .container-banner a:focus {
 
 @media (max-width: 768px) {
   header {
-    margin: 20px 0px 25px 0px;
-    flex-wrap: wrap;
+    margin: 20px 0px 100px;
     justify-content: center;
   }
-  header .container-banner {
-    margin-left: -40px;
+  header .container-banner :first-child a,
+  header .container-banner :last-child a,
+  header .container-banner :first-child a:visited,
+  header .container-banner :last-child a:visited {
+    display: block;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border-top: none;
+    border-bottom: 3px solid lightgray;
+    padding: 55px 0px 15px;
+  }
+  header .container-banner :first-child a:hover,
+  header .container-banner :first-child a:focus,
+  header .container-banner :last-child a:hover,
+  header .container-banner :last-child a:focus {
+    border-top: none;
+    border-bottom: 3px solid #0065fc;
   }
   header .container-banner :first-child a,
   header .container-banner :first-child a:visited {
-    padding-right: calc(25vw - 63px);
-    padding-left: calc(25vw - 63px);
+    left: 0px;
   }
   header .container-banner :last-child a,
   header .container-banner :last-child a:visited {
-    padding-right: calc(25vw - 39px);
-    padding-left: calc(25vw - 39px);
-  }
-  header .container-banner a,
-  header .container-banner a:visited {
-    border-top: none;
-    border-bottom: 3px solid lightgray;
-  }
-  header .container-banner a:hover,
-  header .container-banner a:focus {
-    border-top: none;
-    border-bottom: 3px solid #0065fc;
+    right: 0px;
   }
 }

@@ -1,14 +1,18 @@
 footer {
   background-color: #f2f2f2;
+}
+.bloc-footer {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px 260px;
-  padding: 50px 0px 50px 40px;
+  justify-content: space-between;
+  padding: 50px 40px 0px;
+  width: 62%;
 }
 footer ul {
   list-style: none;
   font-size: 16px;
   padding: 0px;
+  margin-bottom: 40px;
 }
 footer li {
   margin-top: 10px;
@@ -24,15 +28,9 @@ a:focus {
   color: #0065fc;
 }
 
-@media (max-width: 992px) {
-  footer {
-    justify-content: center;
-  }
-}
-
 @media (max-width: 768px) {
-  footer {
+  .bloc-footer {
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 40px;
   }
 }
