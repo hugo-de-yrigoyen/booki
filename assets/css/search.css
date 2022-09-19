@@ -1,4 +1,11 @@
 main {
+  margin: auto;
+  max-width: 1400px;
+}
+.presentation,
+.container-search,
+.container-filtres,
+.container-info {
   margin-left: 40px;
 }
 h1,

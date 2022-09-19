@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  margin-left: 40px;
 }
 .container-all-herbegements a,
 .container-all-herbegements a:visited,

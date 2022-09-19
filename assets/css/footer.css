@@ -1,18 +1,22 @@
 footer {
   background-color: #f2f2f2;
 }
+footer h3 {
+  margin: 0px 40px;
+}
 .bloc-footer {
+  max-width: 1400px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 50px 40px 0px;
-  width: 62%;
+  padding: 50px 0px 0px;
 }
 footer ul {
   list-style: none;
   font-size: 16px;
   padding: 0px;
-  margin-bottom: 40px;
+  margin: 0px 0px 40px 40px;
 }
 footer li {
   margin-top: 10px;
@@ -31,6 +35,6 @@ a:focus {
 @media (max-width: 768px) {
   .bloc-footer {
     flex-direction: column;
-    padding-left: 40px;
+    padding-left: 10px;
   }
 }
