@@ -1,57 +1,57 @@
 #activites-titre {
-  margin: 60px 0px 25px 40px;
+  margin-top: 60px;
 }
 .container-activite {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  margin: 0px 0px 60px 40px;
+  padding-bottom: 60px;
 }
-.container-activite .activite {
+.container-activite h3 {
+  padding-left: 15px;
+}
+.container-activite p {
+  font-size: 14px;
+}
+.activite {
   display: flex;
   flex-direction: column;
   gap: 40px;
   width: 20%;
   min-width: 302px;
 }
-.container-activite .activite-box img {
+.activite-box img {
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
   margin-bottom: 15px;
 }
-.container-activite h3 {
-  margin-left: 15px;
-}
-.container-activite p {
-  font-size: 14px;
-}
 
-.container-activite .activite-fullheight {
+.activite-fullheight {
   height: 400px;
 }
-.container-activite .activite-fullheight img {
+.activite-fullheight img {
   height: 86%;
 }
 
-.container-activite .activite-60height {
+.activite-60height {
   height: 220px;
 }
-.container-activite .activite-60height img {
+.activite-60height img {
   height: 74%;
 }
 
-.container-activite .activite-40height {
+.activite-40height {
   height: 140px;
 }
-.container-activite .activite-40height img {
+.activite-40height img {
   height: 60%;
 }
 
-.container-activite .activite-50height {
+.activite-50height {
   height: 180px;
 }
-.container-activite .activite-50height img {
+.activite-50height img {
   height: 68%;
 }
 
@@ -76,22 +76,22 @@
 @media (max-width: 768px) {
   .container-activite {
     gap: 20px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     margin-left: 10px;
   }
-  .container-activite .activite {
+  .activite {
     width: 90%;
     gap: 20px;
   }
-  .container-activite .activite-box {
+  .activite-box {
     height: 175px;
   }
-  .container-activite .activite-box img {
+  .activite-box img {
     height: 67%;
   }
   #activites-titre {
     text-align: left;
     margin-left: 6.5%;
-    margin-top: 30px;
+    padding-top: 30px;
   }
 }

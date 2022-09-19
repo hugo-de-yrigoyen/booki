@@ -10,5 +10,5 @@
   https://course.oc-static.com/projects/Front-End+V2/P2+HTML+%26+CSS/DW+P2+-+Specifications+techniques+et+fonctionnelles.pdf
 - Maquettes de départ :
   https://course.oc-static.com/projects/Front-End+V2/P2+HTML+%26+CSS/DW+P2+-+Ressources+Booki+FR.zip
-  ![Maquette desktop](Desktop.png "Maquette desktop")
-  ![Maquette smartphone](iPhone8.png "Maquette smartphone")
+  ![Maquette desktop](assets/maquette/Desktop.png "Maquette desktop")
+  ![Maquette smartphone](assets/maquette/iPhone8.png "Maquette smartphone")

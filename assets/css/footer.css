@@ -1,33 +1,31 @@
 footer {
   background-color: #f2f2f2;
 }
-footer h3 {
-  margin: 0px 40px;
-}
 .bloc-footer {
   max-width: 1400px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 50px 0px 0px;
+  padding: 50px 400px 0px 80px;
 }
 footer ul {
   list-style: none;
   font-size: 16px;
   padding: 0px;
-  margin: 0px 0px 40px 40px;
+  padding-bottom: 40px;
 }
 footer li {
-  margin-top: 10px;
+  padding-top: 10px;
+  margin-right: 40px;
 }
 footer a,
-a:visited {
+footer a:visited {
   text-decoration: none;
   color: black;
 }
 footer a:hover,
-a:focus {
+footer a:focus {
   border: none;
   color: #0065fc;
 }
@@ -35,6 +33,9 @@ a:focus {
 @media (max-width: 768px) {
   .bloc-footer {
     flex-direction: column;
-    padding-left: 10px;
+    padding: 50px 0px 0px;
+  }
+  footer {
+    padding-left: 6.5%;
   }
 }

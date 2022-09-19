@@ -2,10 +2,7 @@ main {
   margin: auto;
   max-width: 1400px;
 }
-.presentation,
-.container-search,
-.container-filtres,
-.container-info {
+.bloc-page {
   margin-left: 40px;
 }
 h1,
@@ -31,47 +28,43 @@ h3 {
   width: 418px;
   margin-bottom: 30px;
 }
-.container-search .fa-location-dot {
+.fa-location-dot {
   padding: 25px 15px 5px 20px;
   cursor: pointer;
 }
-.container-search .fa-location-dot:hover {
+.fa-location-dot:hover {
   transform: scale(1.1);
   transition: 0.2s;
 }
-.container-search .search-bar {
+.search-bar {
   width: 205px;
   padding: 15px;
   font-size: 17px;
   border: 0px;
   border-radius: 0px;
 }
-.container-search button {
+.search-button {
   position: relative;
   color: white;
   background-color: #0065fc;
   border: 3px solid #0065fc;
   cursor: pointer;
   margin: -30px -30px -30px -3px;
-}
-.container-search button:active:hover {
-  background-color: #0065fc;
-  color: white;
-  transition: 0.2s;
-}
-.container-search .search-button {
-  background-color: #0065fc;
   font-size: 17px;
   padding: 13px 14px;
   border-radius: 0px 15px 15px 0px;
 }
-.container-search .fa-magnifying-glass {
-  display: none;
-}
-.container-search .search-button:hover,
-.search-button-small:hover {
+.search-button:hover {
   color: #0065fc;
   background-color: white;
+}
+.search-button:active:hover {
+  background-color: #0065fc;
+  color: white;
+  transition: 0.2s;
+}
+.fa-magnifying-glass {
+  display: none;
 }
 
 .container-filtres {
@@ -81,11 +74,11 @@ h3 {
   align-items: center;
   margin-bottom: 40px;
 }
-.container-filtres .filtres-titre {
+.filtres-titre {
   font-size: 17px;
   margin: 0px;
 }
-.container-filtres .filtres {
+.filtres {
   display: flex;
   align-items: center;
   font-size: 17px;
@@ -93,7 +86,7 @@ h3 {
   border-radius: 30px;
   padding-right: 20px;
 }
-.container-filtres .filtres i {
+.filtres i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,19 +97,19 @@ h3 {
   border-radius: 100%;
   padding: 17px;
 }
-.container-filtres .filtres .fa-money-bill-wave {
+.fa-money-bill-wave {
   margin: -2px 115px -2px -115px;
 }
-.container-filtres .filtres .fa-child-reaching {
+.fa-child-reaching {
   margin: -2px 75px -2px -75px;
 }
-.container-filtres .filtres .fa-heart {
+.fa-heart {
   margin: -2px 110px -2px -110px;
 }
-.container-filtres .filtres .fa-dog {
+.fa-dog {
   margin: -2px 160px -2px -160px;
 }
-.container-filtres .filtres:hover {
+.filtres:hover {
   border: 2px solid #0065fc;
   color: #0065fc;
 }
@@ -126,7 +119,7 @@ h3 {
 #animaux {
   display: none;
 }
-.container-filtres .filtres label {
+.filtres label {
   padding: 14px 20px 14px 50px;
   border-radius: 30px;
   margin: -5px -70px -5px 5px;
@@ -154,19 +147,19 @@ h3 {
 }
 
 @media (max-width: 992px) {
-  main {
+  .bloc-page {
     margin-left: 0px;
   }
   .presentation,
   .container-search,
   .container-filtres,
   .container-info {
-    margin-left: 20px;
+    margin-left: 40px;
   }
   .presentation {
     max-width: 300px;
   }
-  .container-filtres .filtres-titre {
+  .filtres-titre {
     width: 992px;
   }
   .container-filtres {
@@ -179,13 +172,13 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  .container-search .search-button span {
+  .search-button span {
     display: none;
   }
-  .container-search .fa-magnifying-glass {
+  .fa-magnifying-glass {
     display: inline;
   }
-  .container-search .search-button {
+  .search-button {
     border-radius: 15px;
     margin-left: -20px;
   }
@@ -193,7 +186,7 @@ h3 {
     margin-top: 30px;
     width: calc(20vw + 187px);
   }
-  .container-search .search-bar {
+  .search-bar {
     width: calc(14vw + 115px);
   }
 }
