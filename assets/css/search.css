@@ -63,7 +63,7 @@ h3 {
   color: white;
   transition: 0.2s;
 }
-.fa-magnifying-glass {
+.container-search .fa-magnifying-glass {
   display: none;
 }
 
@@ -175,7 +175,7 @@ h3 {
   .search-button span {
     display: none;
   }
-  .fa-magnifying-glass {
+  .container-search .fa-magnifying-glass {
     display: inline;
   }
   .search-button {
