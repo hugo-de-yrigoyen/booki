@@ -15,7 +15,7 @@
 
   ## Contexte
 
-  - Évalutation réussie
-  - Commentaires :
-    ![Résultats Page 1](assets/resultats/resultat1.png "Résultats Page 1")
-    ![Résultats Page 2](assets/resultats/resultat2.png "Résultats Page 2")
+- Évalutation réussie
+- Commentaires :
+  ![Résultats Page 1](assets/resultats/resultat1.png "Résultats Page 1")
+  ![Résultats Page 2](assets/resultats/resultat2.png "Résultats Page 2")
