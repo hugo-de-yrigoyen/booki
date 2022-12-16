@@ -1,7 +1,7 @@
 # Booki - Projet d'études
 
 - https://hugo-de-yrigoyen.github.io/booki/
-- Dans le cadre des mes études de développeur web
+- Dans le cadre de mes études de développeur web
 - Page d'accueil d'un site de réservation d'hôtel en **HTML et CSS uniquement** (pas d'autre language, de framework ou de prépocesseur autorisés)
 
 ## Contexte
